@@ -10,7 +10,7 @@ func GetCommands() map[string]CliCommand {
 	return map[string]CliCommand{
 		"help": {
 			Command:     "help",
-			Description: "Print all commands",
+			Description: "Prints all commands",
 			Callback:    help,
 		},
 		"exit": {
