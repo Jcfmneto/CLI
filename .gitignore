@@ -1,1 +1,10 @@
-.CLI
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+
+bin/
+
+CLI
